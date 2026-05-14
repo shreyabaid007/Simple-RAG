@@ -1,0 +1,5 @@
+[server]
+# Disable the source-file watcher. It walks every imported module to detect
+# changes, which produces a wall of harmless tracebacks when it touches
+# `transformers` submodules that try to import optional deps like torchvision.
+fileWatcherType = "none"
