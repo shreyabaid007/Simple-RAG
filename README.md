@@ -22,6 +22,8 @@ The cross-encoder sees the full question-passage pair and is far more accurate t
 
 ## Architecture
 
+![Architecture](./architecture.png)
+
 ```
 PDFs ──► load + section-tag ──► chunk ──► embed (Ollama) ──► ChromaDB
                                                                 │
